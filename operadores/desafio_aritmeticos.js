@@ -1,3 +1,3 @@
 let f = 73;
-let c = (f - 32) / 9 * 5;
-console.log(c);
+let graus_Celsius = (f - 32) / 1.8;
+console.log(graus_Celsius);

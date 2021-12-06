@@ -1,10 +1,14 @@
+//trocar o valor das variáveis
 let a = 7;
 let b = 94;
 
-let temp = a;
+//resolução 1
+let c = 7;
 a = b;
-b = temp;
+b = c;
 
-// depois da troca... a = 94 e b = 7
-console.log(a);
-console.log(b);
+//resolução 2
+// [a, b] = [b, a];
+
+console.log(`resolução 1 => a: ${a}, b: ${b}`);
+// console.log(`resolução 2 => a: ${a}, b: ${b}`);
